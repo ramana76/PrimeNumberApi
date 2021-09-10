@@ -21,16 +21,15 @@ git clone https://github.com/ramana76/PrimeNumberApi.git
 Start Backend Springboot application using following commands in a Bash terminal
 
 ```sh
-cd PrimeNumberApi/frontend
-mvn spring-boot:run
-```
-
-Start Frontend React application using following commands in a Bash terminal
-
-```sh
 cd PrimeNumberApi/backend
 npm install
 npm start
+```
+
+Start Frontend React application using following commands in a Bash terminal
+```sh
+cd PrimeNumberApi/frontend
+mvn spring-boot:run
 ```
 
 Launch Application from webbrowser
